@@ -23,6 +23,7 @@
 .news__form input::placeholder { color: #59515b; opacity: 1; }
 .news__form .btn { flex-shrink: 0; }
 .news small { font-size: .72rem; }
+.news small a { text-decoration: underline; text-underline-offset: 2px; }
 
 @media (max-width: 900px) {
   .news__card { flex-direction: column; gap: 18px; text-align: center; margin-bottom: -20px; }

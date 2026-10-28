@@ -43,6 +43,7 @@
 .footer__about p:first-of-type { color: #f1edf7; font-size: .85rem; }
 .footer__mail { display: flex; align-items: flex-start; gap: 10px; font-size: .85rem; overflow-wrap: anywhere; }
 .footer__mail svg { flex: 0 0 auto; margin-top: 3px; }
+.footer__mail a:hover, .footer__mail a:focus-visible { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
 .footer__loc { padding-left: 28px; }
 
 @media (max-width: 800px) {

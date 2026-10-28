@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { FaCookieBite } from 'react-icons/fa6';
+import { legalLinks } from '../../../features/landing/data/content';
 import './CookieBanner.css';
 
 const consentKey = 'univoz-cookie-consent';
@@ -70,11 +71,11 @@ export default function CookieBanner() {
         <FaCookieBite />
       </span>
       <p className="cookie-banner__message">
-      Queremos que tu visita a Univoz sea lo más cómoda posible.
-Por eso usamos cookies para recordar tus preferencias de navegación y medir cómo se usa la página para seguir mejorándola. Al continuar navegando, aceptas el uso de Cookies.
+        Univoz no usa cookies de rastreo ni analítica. Solo guardamos en tu navegador que ya viste este aviso.{' '}
+        <a href={legalLinks.cookies} tabIndex={visible ? 0 : -1}>Más información</a>
       </p>
       <button className="cookie-banner__accept" type="button" onClick={() => choose(true)} tabIndex={visible ? 0 : -1}>
-        Aceptar cookies
+        Entendido
       </button>
       <button
         className="cookie-banner__close"

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { FiSearch } from 'react-icons/fi';
 import legalDocument from './legalDocument.md?raw';
@@ -30,6 +30,12 @@ const outline = legalDocument
 
 export default function LegalPage() {
   const [query, setQuery] = useState('');
+
+  // El documento se pinta después de que el navegador intenta ir al #ancla de la URL, así que lo hacemos aquí.
+  useEffect(() => {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    if (id) document.getElementById(id)?.scrollIntoView({ behavior: 'instant' });
+  }, []);
 
   const filteredOutline = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase('es');

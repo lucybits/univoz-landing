@@ -13,7 +13,7 @@ export const faqItems = [
   },
   {
     question: '¿Puedo usar Univoz desde un dispositivo móvil?',
-    answer: 'La plataforma está diseñada para consultarse desde distintos dispositivos, incluidos teléfonos móviles. Necesitas conexión a internet para acceder al contenido en la nube.',
+    answer: 'Sí. Univoz es una app para teléfonos móviles (versión beta). Funciona casi por completo sin conexión; solo usa internet para actualizar el diccionario de señas y, si tú lo eliges, para subir muestras.',
   },
   {
     question: '¿Cómo puedo descargar la aplicación?',

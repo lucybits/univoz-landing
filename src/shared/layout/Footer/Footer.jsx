@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { FiMail } from 'react-icons/fi';
-import { footerColumns, contact } from '../../../features/landing/data/content';
+import { footerColumns, contact, legalLinks } from '../../../features/landing/data/content';
 import { scrollRevealProps, staggerVariants, revealVariants } from '../../animations/scrollReveal';
 import './Footer.css';
 
@@ -11,13 +11,13 @@ const footerAnchors = {
   Descargar: '#descargar',
 };
 
-const legalPageHref = '/privacidad-y-terminos';
 const accessibilityPageHref = '/accesibilidad';
 
 export default function Footer({ homeHref = '' }) {
   const footerLink = (label) => {
     if (label === 'Preguntas frecuentes') return '/preguntas-frecuentes';
-    if (label === 'Aviso de Privacidad' || label === 'Términos y Condiciones') return legalPageHref;
+    if (label === 'Aviso de Privacidad') return legalLinks.privacy;
+    if (label === 'Términos y Condiciones') return legalLinks.terms;
     if (label === 'Accesibilidad') return accessibilityPageHref;
     return `${homeHref}${footerAnchors[label] || '#'}`;
   };
@@ -44,7 +44,7 @@ export default function Footer({ homeHref = '' }) {
         ))}
         <motion.div className="footer__contact" variants={revealVariants}>
           <h3>Contacto</h3>
-          <p className="footer__mail"><FiMail /> {contact.email}</p>
+          <p className="footer__mail"><FiMail aria-hidden="true" /> <a href={`mailto:${contact.email}`}>{contact.email}</a></p>
           <p className="footer__muted footer__loc">{contact.location}</p>
         </motion.div>
       </motion.div>

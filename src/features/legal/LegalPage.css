@@ -182,6 +182,13 @@
   color: #30223e;
 }
 
+.legal-document__content a {
+  color: #5141ff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 600px) {
   .legal-page {
     padding-top: 12px;

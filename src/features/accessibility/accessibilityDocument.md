@@ -4,11 +4,11 @@ UNIVOZ, Una voz para todos
 
 Hermosillo, Sonora, México
 
-Última actualización: 24 de octubre de 2026
+Última actualización: 26 de octubre de 2026
 
 ## 1. Nuestro compromiso con la accesibilidad
 
-Univoz es una plataforma digital inclusiva que facilita la comunicación entre personas con discapacidad auditiva, visual o motriz y el resto de la población. Por consiguiente, la accesibilidad no constituye una función adicional de la plataforma, sino el fundamento mismo del proyecto.
+Univoz es una plataforma digital inclusiva que facilita la comunicación entre personas sordas, ciegas o con discapacidad del habla y el resto de la población. Por consiguiente, la accesibilidad no constituye una función adicional de la plataforma, sino el fundamento mismo del proyecto.
 
 En virtud de lo anterior, Univoz se compromete a mejorar de manera continua la accesibilidad de su aplicación móvil y de su sitio web, así como a atender con oportunidad las barreras que los usuarios nos comuniquen. Dicho compromiso es asumido por jóvenes estudiantes del Instituto Tecnológico de Hermosillo, quienes desarrollan este proyecto con la convicción de que la tecnología debe estar al alcance de todas las personas.
 
@@ -26,26 +26,25 @@ Lo anterior significa que hemos incorporado diversas medidas conforme a dichas p
 
 La aplicación Univoz cuenta actualmente con las siguientes funciones:
 
-- **Compatibilidad con lectores de pantalla:** TalkBack en dispositivos Android y VoiceOver en dispositivos iOS.
-- **Ajuste del tamaño de letra y modo de alto contraste**, a fin de facilitar la lectura a personas con baja visión.
-- **Subtítulos y transcripciones** en los contenidos de audio y video.
-- **Alertas multimodales:** la plataforma no depende exclusivamente de señales sonoras, sino que emplea además vibración y señales visuales.
+- **Perfiles de comunicación:** al iniciar, cada persona elige cómo se comunica (persona ciega, sorda, con discapacidad del habla, o «Prestaré mi celular» para quien acompaña), y la aplicación adapta la conversación a ese perfil.
+- **Compatibilidad con lectores de pantalla:** TalkBack en dispositivos Android y VoiceOver en dispositivos iOS. Los controles principales cuentan con etiquetas para lectores de pantalla. Si TalkBack está activo, un asistente de voz guía la configuración inicial con preguntas habladas y respuestas por voz.
+- **Voz y dictado:** texto a voz para que la aplicación hable por quien no puede hacerlo, y dictado por voz para escribir mensajes sin usar el teclado.
+- **Lengua de señas:** un avatar que representa en Lengua de Señas Mexicana lo que se dice, y la cámara para traducir a voz y texto las señas de quien las realiza.
+- **Respuesta táctil:** vibración en acciones clave y en los ejercicios de «Aprender», para no depender únicamente del sonido.
 - **Botón SOS de color rojo**, visible en múltiples pantallas de la aplicación, que envía una alerta a contactos de confianza previamente registrados.
-- **Botones y áreas táctiles amplias**, que reducen la dificultad de uso para personas con discapacidad motriz.
-- **Control por voz**, para quienes no puedan o prefieran no interactuar mediante la pantalla táctil.
-- **Navegación mediante teclado** y textos alternativos en las imágenes de la aplicación.
 
 **Aviso importante sobre el botón SOS.** Sin perjuicio de su utilidad, el botón SOS constituye una herramienta de apoyo y no sustituye a los servicios de emergencia. Por ende, en caso de peligro inmediato, se recomienda comunicarse al número de emergencias 911, o utilizar el servicio de mensajes de texto al 911 cuando esté disponible en su localidad.
 
 ### 3.2 Sitio web
 
-El sitio web de Univoz cuenta con navegación mediante teclado, textos alternativos en imágenes, estructura de encabezados y contraste de color suficiente. Ahora bien, en tanto no se concluya la evaluación referida en el apartado 2, algunas secciones podrían presentar deficiencias que nos comprometemos a corregir.
+El sitio web de Univoz cuenta con navegación mediante teclado, textos alternativos en las imágenes informativas, estructura de encabezados y contraste de color revisado con herramientas automatizadas. Además, respeta la preferencia de movimiento reducido del sistema operativo. Ahora bien, en tanto no se concluya la evaluación referida en el apartado 2, algunas secciones podrían presentar deficiencias que nos comprometemos a corregir.
 
 ## 4. Limitaciones conocidas
 
 En atención al principio de transparencia, informamos las siguientes limitaciones vigentes:
 
 - **Interpretación automática de señas.** La función de interpretación automática de lengua de señas es de carácter orientativo. Toda vez que se basa en tecnologías automatizadas, puede presentar errores o imprecisiones y, por tanto, no sustituye a un intérprete profesional de lengua de señas. Para mayor información, consulte la [cláusula 7 de nuestros Términos y Condiciones](/privacidad-y-terminos#legal-7-naturaleza-orientativa-de-las-funciones-de-interpretacion-y-aprendizaje).
+- **Ajustes propios de texto y contraste.** La aplicación aún no ofrece un ajuste propio de tamaño de letra ni un modo de alto contraste general; ambos están en desarrollo.
 - **Videos en Lengua de Señas Mexicana (LSM).** Por el momento, Univoz no cuenta con videos de interpretación en LSM en su sitio web ni en sus documentos informativos como indicadores para ayudar en el uso del sitio web y/o aplicación móvil. Constituye un objetivo del proyecto incorporarlos en el futuro.
 - **Conformidad parcial con las WCAG 2.2.** Según se indicó en el apartado 2, la evaluación integral se encuentra en proceso.
 - **Navegadores pendientes de verificación.** Según se detalla en el apartado 5.
@@ -56,13 +55,12 @@ No obstante lo anterior, trabajamos de manera constante para superar estas limit
 
 ### 5.1 Navegadores web
 
-El sitio web de Univoz ha sido probado y es compatible con las versiones más recientes de los siguientes navegadores:
+El sitio web de Univoz ha sido probado en las versiones más recientes de los siguientes navegadores de escritorio y en pantallas de teléfono, tableta y computadora:
 
-- Microsoft Edge
-- Google Chrome
+- Google Chrome (y navegadores basados en Chromium, como Microsoft Edge)
 - Mozilla Firefox
 
-Asimismo, se encuentra en proceso de verificación la compatibilidad con otros navegadores, tales como Opera, Vivaldi, Arc, y similares. Si bien es posible que funcionen correctamente, aún no podemos garantizar en ellos una experiencia plenamente accesible. En consecuencia, si utiliza alguno de estos navegadores y encuentra dificultades, le agradeceremos comunicarlo a través de los medios señalados en el apartado 7.
+Se encuentra en proceso de verificación la compatibilidad con Safari y con otros navegadores, tales como Opera, Vivaldi, Arc, y similares. Si bien es posible que funcionen correctamente, aún no podemos garantizar en ellos una experiencia plenamente accesible. En consecuencia, si utiliza alguno de estos navegadores y encuentra dificultades, le agradeceremos comunicarlo a través de los medios señalados en el apartado 7.
 
 ### 5.2 Aplicación móvil
 
@@ -95,7 +93,7 @@ Univoz se compromete a responder dentro de un plazo máximo de cinco (5) días h
 
 - **Estándar de referencia:** WCAG 2.2, nivel AA.
 - **Estado:** conformidad parcial, en proceso de evaluación.
-- **Método de evaluación:** revisión integral y pruebas con usuarios pendientes; se prevé combinar revisión manual y herramientas automatizadas.
-- **Fecha de la última revisión:** 24 de octubre de 2026.
+- **Método de evaluación:** revisión manual del sitio con teclado y análisis automatizado (axe-core) en las páginas principales; revisión integral y pruebas con usuarios pendientes.
+- **Fecha de la última revisión:** 26 de octubre de 2026.
 
 La presente Declaración de Accesibilidad se revisará de forma periódica y se actualizará cada vez que se incorporen nuevas funciones, se corrijan deficiencias o se verifiquen nuevos navegadores y tecnologías de asistencia.

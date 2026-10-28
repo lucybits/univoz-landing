@@ -43,6 +43,12 @@
   line-height: 1.55;
 }
 
+.cookie-banner__message a {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .cookie-banner__accept {
   min-height: 50px;
   padding: 0 24px;

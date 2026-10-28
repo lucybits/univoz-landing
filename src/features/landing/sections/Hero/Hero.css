@@ -186,6 +186,20 @@
     z-index: 1;
 }
 
+a.hero__download-option {
+    text-decoration: none;
+}
+
+.hero__download-option:disabled {
+    cursor: default;
+    opacity: .72;
+}
+
+.hero__download-option:disabled:hover {
+    background: transparent;
+    transform: none;
+}
+
 .hero__download-platform-icon {
     display: grid;
     width: 38px;
@@ -253,6 +267,11 @@
 .hero__legal {
     max-width: 520px;
     font-size: 1.05rem;
+}
+
+.hero__legal a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 @media (max-width: 1000px) {
